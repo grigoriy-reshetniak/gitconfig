@@ -1,0 +1,13 @@
+[core]
+	editor = vim
+[includeIf "gitdir:~/work/"]
+  path = ~/work/.gitconfig
+[rerere]
+  enabled = true
+[column]
+  ui = auto
+[alias]
+  stick = commit --amend --no-edit --no-verify
+[commit]
+	gpgsign = true
+
